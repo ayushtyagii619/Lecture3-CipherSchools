@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+    <!--external css-->
+    <link rel="stylesheet" href="style.css">
+    <!--internal css-->
+    <style>
+        p{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--inline css-->
+    <h1 style="color: red;">This is a 😀</h1>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium itaque voluptatum reiciendis ab voluptatem.
+    </p>
+    <a href="https://www.facebook.com/" target="_blank">
+        <button>click me</button>
+    </a>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Sur Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Ayush</td>
+            <td>Tyagi</td>
+            <td>23</td>
+        </tr>
+    </table>
+
+    <ul>
+        <li>home</li>
+        <li>page up</li>
+        <li>page down</li>
+        <li>exit</li>
+    </ul>
+
+    <pre>
+        Lorem ipsum
+         dolor sit
+          amet.
+    </pre>
+</body>
+
+</html>
+
+//external css (style.css)
+
+body{
+    text-align: center;
+}
+table{
+    border: 2px solid black;
+}
+ul{
+    text-align: left;
+}
